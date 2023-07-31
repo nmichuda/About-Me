@@ -3,17 +3,27 @@ html {
   width: 100%;
 }
 
-header{
+header {
+  /* setting background color and margin for the header */
   background-color: black;
   margin-bottom: 10px;
 }
-header h1,h2{
+
+header h1,
+h2 {
   text-align: center;
+  /* centering all the main header texts */
   background-color: black;
   color: tan;
   font-family: cursive, comic sans ms;
 }
-.profile{
+
+h1 {
+  font-size: 40px;
+}
+
+.profile {
+  /* rounding corners, auto-setting the margins, and setting the width for the profile picture */
   border-radius: 50%;
   height: auto;
   margin-left: auto;
@@ -21,37 +31,49 @@ header h1,h2{
   display: block;
   max-width: 30%;
 }
-body{
+
+body {
   background-color: tan;
   padding: 50px, 50px, 50px, 50px;
+  /* padding the body container by 50px on all sides */
 }
-main{
+
+main {
   font-family: fantasy;
 }
-main >p,h3{
+
+main>p,
+h3 {
+  /* aligning text in the main paragraph and header3 center */
   text-align: center;
 }
-nav{
+
+nav {
   color: tan;
   text-align: center;
 }
 
-footer{
+footer {
   background-color: black;
   color: tan;
 }
 
-hr{
+hr {
+  /* making the line breaks thicker and solid black */
   width: auto;
   border: 2px solid black;
 }
 
-article{
+article {
   padding-top: 20px;
-  
+
 }
 
 
 
 
-a:link {color: tan}
+a:link {
+  color: tan
+}
+
+/* change the link color to match the other text in the heading */
